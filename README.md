@@ -1,4 +1,4 @@
-## Customer-Transaction-in-Alteryx
+## Classification of Customers into High and Low on basis of transactions
 Using in-built sample data of customer transactions and preparing data flow in Alteryx Designer
 
 ### Objective- To classify the customers into groups based on amount spend and number of visits
@@ -23,4 +23,14 @@ The data consists of 2669 records with the following columns:
 
 ![image](https://user-images.githubusercontent.com/80466173/113137912-c5dca280-9242-11eb-994c-41d95d0c8991.png)
 
+### Create formula with condition such that if standard deviation of Spend_Group and Visit_Group is greater than 3, then label the target variable as "High" otherwise "Low"
 
+![image](https://user-images.githubusercontent.com/80466173/113144818-50c19b00-924b-11eb-9cdc-f1dcbf2e47e2.png)
+
+
+![image](https://user-images.githubusercontent.com/80466173/113144866-60d97a80-924b-11eb-8984-c8b8f8e442e4.png)
+
+
+#### Observation- There are large number of lows in the dataset i.e. standard deviation is less than 3
+
+![image](https://user-images.githubusercontent.com/80466173/113145201-c9285c00-924b-11eb-9ac8-1357ff7c76ad.png)
