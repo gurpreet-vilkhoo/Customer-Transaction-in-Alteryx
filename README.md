@@ -1,4 +1,4 @@
-## Classification of Customers into High and Low on basis of transactions
+## Classification of Customer transactions using Alteryx
 Using in-built sample data of customer transactions and preparing data flow in Alteryx Designer
 
 #### Objective- To classify the customers into groups based on amount spend and number of visits
